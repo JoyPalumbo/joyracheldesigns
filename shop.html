@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f7fc;
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+        nav {
+            background: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8a63d2;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg,#f7d9ff,#dbe9ff);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.products {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-content {
+    padding: 20px;
+}
+
+.product h3 {
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #8a63d2;
+    margin-bottom: 15px;
+}
+
+.buy-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #8a63d2;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.buy-btn:hover {
+    opacity: .9;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+    margin-top: 50px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">My Shop</div>
+</header>
+<nav>
+    <h2>Joy Rachel Designs</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="classes.html">Classes</a></li>
+    </ul>
+</nav>
+<section class="hero">
+    <h1>Shop Our Collection</h1>
+    <p>Discover unique products you'll love.</p>
+</section>
+
+<section class="products">
+
+    <!-- <div class="product">
+        <img src="images/product1.jpg" alt="Product 1">
+        <div class="product-content">
+            <h3>Product Name</h3>
+            <p>Short description of the product.</p>
+            <div class="price">$19.99</div>
+
+            Replace with Stripe Payment Link
+            <a href="https://buy.stripe.com/your-link-here"
+               class="buy-btn">
+               Buy Now
+            </a>
+        </div>
+    </div> -->
+
+    <!-- <div class="product">
+        <img src="images/product2.jpg" alt="Product 2">
+        <div class="product-content">
+            <h3>Product Name</h3>
+            <p>Short description of the product.</p>
+            <div class="price">$24.99</div>
+
+            <a href="https://buy.stripe.com/your-link-here"
+               class="buy-btn">
+               Buy Now
+            </a>
+        </div>
+    </div> -->
+
+    <!-- <div class="product">
+        <img src="images/product3.jpg" alt="Product 3">
+        <div class="product-content">
+            <h3>Product Name</h3>
+            <p>Short description of the product.</p>
+            <div class="price">$29.99</div>
+
+            <a href="https://buy.stripe.com/your-link-here"
+               class="buy-btn">
+               Buy Now
+            </a>
+        </div> -->
+    <!-- </div> -->
+
+</section>
+
+<footer>
+    © 2026 Joy Rachel Designs | Secure Checkout Powered by Stripe
+</footer>
+
+</body>
+</html>
